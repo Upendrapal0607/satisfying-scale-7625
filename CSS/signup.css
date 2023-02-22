@@ -1,0 +1,159 @@
+#logPage {
+    border-radius: 1px solid red;
+    /* text-align: center; */
+    background: white;
+    /* linear-gradient( rgba(14, 13, 13, 0.5), rgba(238, 236, 237, 0.1)) */
+    width: 25%;
+    height: 40%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+#logo {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#number {
+    width: 85%;
+    margin-right: 5px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+#number:hover{
+    border-bottom: 2px solid #e40980;
+}
+
+#connect {
+    text-align: center;
+    color: #78909C;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+#face {
+    display: flex;
+    margin: auto;
+    margin-left: 0px;
+    box-shadow: 1px 1px 1px 1px #e2e6e9;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+#last {
+    display: flex;
+}
+
+#goog {
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px #e2e6e9;
+}
+
+img {
+    width: 10%;
+    margin: auto;
+    margin-right: 5px;
+}
+
+#facebook {
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    margin-left: 0px;
+}
+
+#google {
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    margin-left: 0px
+}
+
+#check {
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+
+#mess {
+    margin: 0px;
+    color: red;
+    font-size: 20px;
+}
+
+#mess1 {
+    margin: 0px;
+    color: red;
+    font-size: 20px;
+}
+
+#wr {
+    margin: auto;
+    color: red;
+    font-size: 20px;
+}
+
+.numInput{
+    display: flex;
+    flex-direction: row;
+}
+#btn {
+    display: block;
+}
+.arrow:hover{
+    background-color: #e40980;
+    border-radius: 50%;
+}
+i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+.arrow{
+    /* border: 1px solid grey; */
+    background-color: rgb(194, 189, 189);
+    border-radius: 50%;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(247, 235, 245), rgba(254, 250, 255, 0.603)), url(https://media6.ppl-media.com/tr:h-400/static/img/story/18671/new_lets-purplle-613f74-371_1484764966_18671_changed.jpg );
+    background-size: cover;
+    height: 730px;
+    background-color: #EFEBE9;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 10px;
+    background: #222;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
