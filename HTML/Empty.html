@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 1rem;
+        background-color: #f5f5f5;
+      }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      /* Navbar part */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+        height: 75px;
+
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
+
+      .content {
+        width: 20%;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+      }
+
+      .content-2 {
+        width: 45%;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+
+        display: flex;
+      }
+
+    /* Navbar End */
+
+    /* Empty Cart Start */
+      .empty-card {
+        width: 100%;
+        height: 70vh;
+        /* border: 1px solid red; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .empty-card-logo {
+        color: #757575;
+        text-align: center;
+        width: 30%;
+
+        font-size: 20px;
+      }
+
+      #empty-card-massage {
+        font-size: 25px;
+      }
+      img {
+        width: 80%;
+        height: 60%;
+        margin-top: 30px;
+      }
+      .btn-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 15px;
+      }
+      #btn {
+        background-color: #e21059;
+        padding: 10px;
+        border-radius: 7px;
+        border: none;
+        color: #f5f5f5;
+      }
+      #btn:hover{
+        cursor: pointer;
+        background-color: rgba(245, 12, 89, 0.932);
+      }
+      #Add-from {
+        text-decoration: none;
+        color: #d500f9;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="content">
+        <a href="#">logo</a>
+      </div>
+      <div class="content-2">
+        <a href="#">shearch</a>
+        <a href="#">like</a>
+        <a href="#">login</a>
+      </div>
+    </nav>
+
+    <div class="empty-card">
+      <div class="empty-card-logo">
+        <img
+          src="https://media4.ppl-media.com/mediafiles/ecomm/webengage/1456403495_empty-bag-25022016.png"
+          alt=""
+        />
+        <p id="empty-card-massage">There are no item in this Cart.</p>
+        <div class="btn-1">
+          <a href="#" id="Add-from">ADD FROM YOUR WISHLIST</a>
+          <button id="btn" onclick="continueSop()">CONTINUE SOPPING</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function continueSop(){
+        window.location.assign('/index.html')
+        }
+    </script>
+  </body>
+</html>
