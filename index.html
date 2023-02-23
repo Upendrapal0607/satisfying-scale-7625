@@ -17,6 +17,8 @@
 
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+		<script src="https://kit.fontawesome.com/c4e502dbf0.js" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
@@ -26,8 +28,123 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
-
+  <!-- Navbar body part start -->
+  <div id="top">
+    <div id="first-row">
+      <p><a href="#">DOWNLOAD APP</a></p>
+      <p>|</p>
+      <p><a href="#">SUPPORT</a></p>
+      <p>|</p>
+      <p><a href="#">TRACK ORDER</a></p>
+    </div>
+    <div> <hr id="line" /> </div>
+  </div>
   
+  
+  <div id="second-line">
+    <div>
+      <div>
+        <div id="search1">
+          <a href="#" id="myBtn">What are you looking for?</a>
+          <a id="search"><i id="myBtn" class="fas fa-search fa-lg"></i></a>
+        </div>
+        <a href="#" id="myBtn"> <hr id="search-line" /> </a>
+      </div>
+    </div>
+    
+    <div>
+      <a href="#"><img id="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1Vjpr-OFuV9pLRCflPLeQY7RuJ8AalrBWNYqUSg00DiV2zfCsnN4wr0wAdZEYrSRaHlfTzAtU8RpJYhzZRlJNDD3vZz5WaHcG4tnIQc9GNHKP02yx-Fmdnr1Ev8utdG64JOEN3mgfKXIWGLPd6Ep1Mk8g5sDTTXE0T5-KOT9RBwQK93AbRioTE_7J/s480/Shivam-logo.jpeg" /></a>
+    </div>
+
+    <div class="basket-icons">
+      <a href="#"><i class="far fa-heart fa-3x"></i></a>
+      <a href="#" id="face" onmouseover="new1()"><i class="far fa-smile fa-3x" id="face"></i></i></a>
+      <a href="#"><i class="fas fa-cart-plus fa-3x"></i></i></a>
+    </div>
+  </div>
+  
+  
+  <hr id="line" />
+  <div id="categories">
+    <p id="mybt"><i class="fas fa-bars"></i>SHOP CATEGORIES</p>
+    <p class="head">BRANDS</p>
+    <p class="head">NEW</p>
+    <p class="head">OFFERS</p>
+    <p class="head">SPLURGE</p>
+    <P class="head">MAGAZINE</P>
+        <P class="head">ELITE OFFERS</P>
+  </div>
+  
+  
+  <hr id="line-last" />
+  <div id="box-shadow"></div>
+  
+  
+  <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content" id="centr">
+      <div id="data">
+        <button id="signin"><a href="#" id="butt">Sign in</a></button>
+        <a href="#">New customer? start here.</a>
+        <a>Your orders</a>
+        <a>Your account</a>
+        <a href="#">Your Cart</a>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="register">
+        <p>Search for product or Brand</p>
+        <div class="align-top">
+          <input type="text" id="no-outline" />
+          <a id="search3" href="#"><i class="fas fa-search fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div id="mymode" class="model">
+    <div id="content">
+      <span class="close1">&times;</span>
+      <div id="reg">
+        <p class="line">Makeup</p>
+        <p>Skin Care</p>
+        <p>Hair care</p>
+        <p>Appliances</p>
+        <p>Personal Care</p>
+        <p>Men</p>
+        <p>Fragrance</p>
+      </div>
+      
+      <div id="sub">
+        <div id="sub-categories">
+          <h4>FACE MAKEUP</h4>
+          <a href="#">Primer</a>
+          <a href="#">Concealer</a>
+          <a href="#">BB & CC Creams</a>
+          <a href="#">Makeup Remover</a>
+        </div>
+        
+        <div id="sub-categories2">
+          <h4>EYE MAKEUP</h4>
+          <a href="#">Eyeliner</a>
+          <a href="#">Eyeshadow</a>
+          <a href="#">Kajal</a>
+          <a href="#">Mascara</a>
+        </div>
+        
+        <div>
+          <h4>LIP MAKEUP</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Navbar body part end -->
     
     <div id="main_cont" class="container">
       
@@ -227,73 +344,6 @@
 
 </body>
 <script src="./index.js"></script>
+<script src="./JavaScript/Navbar.js"></script>
 </html>
-
-    <title>Navbar</title>
-    <link rel="stylesheet" href="./CSS/navbar.css">
-	<script src="https://kit.fontawesome.com/c4e502dbf0.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div id="top">
-        <div>
-            <hr id="line" />
-		</div>
-
-        <div id="first-row">
-            <i class="fa-solid fa-mobile-notch"></i>
-            <p><a href="#">DOWNLOAD APP</a></p>
-			<p>|</p>
-            <p><a href="#">SUPPORT</a></p>
-			<p>|</p>
-			<p><a href="#">TRACK ORDER</a></p>
-		</div>
-		<div>
-			<hr id="line" />
-		</div>
-	</div>
-
-    <div id="second-line">
-		<div>
-			<div>
-				<div id="search1">
-					<a href="#" id="myBtn">What are you looking for?</a>
-					<a id="search"><i id="myBtn" class="fas fa-search fa-lg"></i></a>
-				</div>
-				<a href="#" id="myBtn">
-					<hr id="search-line" />
-				</a>
-			</div>
-		</div>
-
-		<div><a href="home.html"><img id="logo"
-					src="https://media6.ppl-media.com/static/purplle/img/purplle-logo-1.svg" /></a></div>
-		<div class="basket-icons">
-
-			<a href="signup.html"><i class="far fa-heart fa-3x"></i></a>
-			<a href="#" id="face" onmouseover="new1()"><i class="far fa-smile fa-3x" id="face"></i></i></a>
-
-			<a href="signup.html"><i class="fas fa-cart-plus fa-3x"></i></i></a>
-		</div>
-
-	</div>
-	<hr id="line" />
-	<div id="categories">
-
-
-		<p id="mybt"><i class="fas fa-bars"></i>SHOP CATEGORIES</p>
-		<p class="head">BRANDS</p>
-		<p class="head">NEW</p>
-		<p class="head">SPLURGE</p>
-        <P class="head">MAGAZINE</P>
-        <P class="head">ELITE OFFERS</P>
-
-
-	</div>
-
-	<hr id="line-last" />
-	<div id="box-shadow"></div>
-
-</body>
-</html>
-
 
