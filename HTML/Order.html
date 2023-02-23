@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/bc5b4cdf6f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../CSS/Order.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+          <a href="#">logo</a>
+        </div>
+        <div class="content-2">
+         <div class="secuirity">
+             <i class="fa-sharp fa-solid fa-lock"></i>
+             <p>Secure Payment</p>
+            </div>
+            <div class="secuirity">
+                <i class="fa-solid fa-star"></i>
+                <p>100% Genuine Products</p>
+            </div>
+            <div class="secuirity">
+                <i class="fa-sharp fa-regular fa-indian-rupee-sign"></i>
+                <p>Cash Delivery</p>
+            </div>
+        </div>
+    </nav>
+    
+ <div class="form-data">
+    <div class="details">
+        <div class="Add-Adress">
+            <p >Add New Adress</p>
+        </div>
+
+<form action="" class="form">
+    <div class="name">
+        <select name="" id="select-title">
+            <option value="Mr">Mr</option>
+            <option value="Miss">Miss</option>
+            <option value="Mrs">Mrs</option>
+        </select>
+    
+        <input class="Name-inp" type="text" required placeholder="Name*"  autofocus>
+         <p class="Enter-name"></p>
+      
+    </div>
+    <input type="number" name="" id="pine-code" class="pine-code" placeholder="Pincode*" autofocus>
+    <p class="Enter-Pincode" style="margin-left: 0rem;"></p>
+
+    <input type="text" name="" id="address" class="pine-code" placeholder="Address*">
+    <p class="Enter-address" style="margin-left: 0rem;"></p>
+
+    <input type="text" name="" id="Landmark" class="pine-code" placeholder="Landmark">
+    <p class="Enter-landmark" style="margin-left: 0rem;"></p>
+
+
+    <div class="extra-address">
+        <input type="text" name="" id="" class="city" placeholder="City">
+    <input type="text" name="" id="" class="state" placeholder="State">
+  
+    </div>
+
+    <input type="number" id="phone-number" class="phone-number" placeholder="Mobile*">
+    <p class="Enter-Number" style="margin-left: 0rem;"></p>
+   <div class="Address-type">
+    <p>Address type :</p>
+    <select name="" id="select-address">
+        <option value="Home">Home</option>
+        <option value="Office">Office</option>
+        <option value="Other">Other</option>
+    </select>
+   </div>
+   <p class="statement">Address type preferences are used to plan your delivery. However shipments can sometimes arrive or latter then planed.</p>
+
+</form>
+<button class="btn" onclick="sendnextPage()">SAVE & CONTINUE</button>
+ 
+<div class="popup" id="popup">
+  <h2>Thank You</h2>
+  <p>Your Order is placed</p>
+  <button class="Ok" onclick="closepopup()">Ok</button>
+</div>
+    </div>
+   
+ </div>
+
+<script src="../JavaScript/Order.js"></script>
+</body>
+</html>

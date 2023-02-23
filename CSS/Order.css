@@ -1,0 +1,242 @@
+* {
+  /* margin: 0px; */
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 75px;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.content {
+  width: 30%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+}
+
+.content-2 {
+  width: 50%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+  display: flex;
+}
+.secuirity {
+  display: flex;
+
+  align-items: center;
+  width: 30%;
+  height: 100px;
+
+  font-family: "Roboto Condensed", sans-serif;
+  gap: 10px;
+}
+
+/* End Navbar */
+
+/* start details part */
+
+.form-data {
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.details {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  border: 1px solid gainsboro;
+}
+.Add-Adress {
+  display: flex;
+  width: 100%;
+
+  background-color: #eeeeee;
+  align-items: center;
+}
+.Add-Adress > p {
+  color: #6d6c6c;
+  font-size: 18px;
+  margin-left: 0.5rem;
+  line-height: 0px;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+}
+.form {
+  margin-top: 2rem;
+  margin-left: 30px;
+}
+
+#select-title {
+  width: 10%;
+  padding: 2px;
+  text-decoration: none;
+  border: 0px;
+
+  outline: none;
+}
+
+.name-box {
+  border: 1px solid red;
+  width: 70%;
+}
+.Name-inp {
+  width: 70%;
+
+  padding: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  border: 0px;
+  border-bottom: 1px solid gray;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+span {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.pine-code {
+  width: 84%;
+  margin-top: 2rem;
+  padding: 10px;
+
+  text-decoration: none;
+  border: 0px;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.Enter-name,
+.Enter-Pincode,
+.Enter-address,
+.Enter-landmark,
+.Enter-Number {
+  margin-top: -1px;
+  margin-left: 14%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  color: red;
+}
+.extra-address {
+  width: 87%;
+  display: flex;
+
+  gap: 7.5rem;
+}
+.city,
+.state {
+  width: 47%;
+  margin-top: 2rem;
+  padding: 10px;
+  text-decoration: none;
+  border: 0px;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+.phone-number {
+  width: 30%;
+  margin-top: 2rem;
+  padding: 10px;
+  text-decoration: none;
+  border: 0px;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: thistle;
+}
+.Address-type {
+  display: flex;
+  margin-top: 2rem;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+.Address-type > p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Address-type > #select-address {
+  padding: 10px;
+
+  text-decoration: none;
+  border: 0px;
+
+  outline: none;
+}
+.statement {
+  margin: auto;
+  margin-top: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.5rem;
+}
+.btn {
+  margin: auto;
+  width: 40%;
+  padding: 0.7rem;
+  background-color: green;
+  border: 0px;
+  border-radius: 5px;
+  text-align: center;
+
+  margin: 10% 30%;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/* Poppup part start */
+.popup {
+  width: 30%;
+
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 2rem 2rem 2rem;
+  color: rgb(112, 95, 87);
+  visibility: hidden;
+  transition: transform 0.3s, top 0.3s;
+}
+
+.open-popup {
+  visibility: visible;
+  top: 100%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup h2 {
+  font-size: 38;
+  font-weight: 500px;
+  margin: 30px 0px 10px;
+}
+.popup button {
+  width: 100%;
+  margin-top: 2rem;
+
+  padding: 10px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  background: green;
+  color: #fff;
+}
