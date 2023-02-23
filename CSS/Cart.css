@@ -1,0 +1,300 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 75px;
+  /* position: fixed; */
+  /* top: 30; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.content {
+  width: 20%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+}
+
+.content-2 {
+  width: 45%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+  display: flex;
+}
+
+/*Start Right side part payment and place to order */
+.paymant {
+  position: relative;
+
+  width: 25%;
+}
+.secuirity {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9e9e9e;
+}
+.paymant > div {
+  height: 35px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.Enter-pin {
+  border-bottom: 1px solid #bdbdbd;
+}
+.Coupons {
+  border-bottom: 1px solid #bdbdbd;
+}
+.Discount {
+  border-bottom: 1px solid #bdbdbd;
+}
+span {
+  color: #ff5252;
+}
+.img {
+  padding-top: 0.5rem;
+  padding-left: 30px;
+}
+
+.some-stasment {
+  width: 70%;
+  text-align: center;
+}
+.safe,
+.Return {
+  font-size: 15px;
+  line-height: 0ch;
+}
+.safe {
+  color: #9e9e9e;
+  font-weight: 1000;
+  font-size: 20px;
+}
+.Return {
+  color: #bdbdbd;
+}
+#Place-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #f50057;
+}
+
+/* End Right side part payment and place to order */
+
+/* Start Add Product part */
+
+#container {
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  padding-bottom: 3rem;
+  justify-content: space-around;
+}
+.Added-product {
+  width: 50%;
+}
+.Added-product {
+  display: grid;
+  gap: 20px;
+}
+.Added-product > div {
+  width: 100%;
+  height: 4rem;
+}
+.offer {
+  background-color: #e1bee7;
+  border-radius: 10px;
+  width: 100px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.offer > :nth-child(1) {
+  width: 40%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.offer > :nth-child(1) > img {
+  margin-left: 1rem;
+  width: 17%;
+  height: 1.7rem;
+}
+.offer > :nth-child(1) > p {
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  width: 70%;
+}
+.offer > :nth-child(2) {
+  display: flex;
+  width: 30%;
+  margin-right: 1rem;
+  justify-content: end;
+}
+.myCart {
+  width: 100px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.myCart > :nth-child(1) {
+  color: #263238;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.myCart > :nth-child(2) {
+  font-size: 1.3rem;
+}
+.Join-today {
+  background-color: #e1bee7;
+  display: flex;
+  justify-content: space-between;
+}
+.Join-today > :nth-child(1) {
+  width: 60%;
+  line-height: 0px;
+}
+.Join-today > :nth-child(2) {
+  display: flex;
+  align-items: center;
+  width: 27%;
+}
+.join-btn {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  color: darkgoldenrod;
+  background-color: #004d40;
+}
+
+.Join-today > :nth-child(1) > h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.Add-product {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-image {
+  width: 20%;
+  height: 100px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.product-image > img {
+  width: 100%;
+  height: 100%;
+}
+.product-details {
+  width: 40%;
+}
+.remove-btn {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border: none;
+  background-color: none;
+}
+.remove-btn > button {
+  border: none;
+  background-color: none;
+}
+.product-price {
+  width: 17%;
+
+  line-height: 0px;
+  margin-right: 1rem;
+}
+.off-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-details > p:hover {
+  color: #ec407a;
+  cursor: pointer;
+}
+.product-details button:hover {
+  border: none;
+  background-color: #ec407a;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+.product-price > p {
+  text-align: right;
+}
+.off-price > p {
+  text-decoration: line-through;
+  color: #bdbdbd;
+}
+
+.new-product-1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.new-product-1 > h5 {
+  font-size: 25px;
+  padding-bottom: 50px;
+  color: #263238;
+}
+/* Add Product part End *
+
+/* corousel part Start*/
+
+.carousel {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  padding-top: 1rem;
+}
+.carousel-cell {
+  width: 70%;
+
+  display: flex;
+  justify-content: space-around;
+
+  margin-right: 1rem;
+}
+.carousel-cell > div {
+  width: 30%;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: 8rem;
+}
+.new-product-extra {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+/* Corousel End */
