@@ -1,6 +1,7 @@
 
 
 
+
 let mockapis =  document.getElementById("mock")
 
 async function fetchdata(){
@@ -27,3 +28,4 @@ function displaycards(data){
         mockapis.append(card)
     })
 }
+
