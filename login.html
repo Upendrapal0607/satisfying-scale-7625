@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Mulish:wght@700&family=Poppins:wght@100;200&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+   
+</head>
+
+<body>
+    <div id="logoBox">
+        <div>
+            <a href="index.html">
+                <img id="logo" src="./Image/Logo-new-print.png" />
+            </a>
+        </div>
+    </div>
+  <div class="logInAfter">
+        <div id="logPage">
+            <h2>Welcome Aboard</h2>
+            <p>Let’s know you the better and make sure that you never lose access to your account.</p>
+
+            <div class="numInput">   
+                    <input class="number" id="name" type="text" style="font-size: 15px;" placeholder="Enter your name*"  required>
+                    <input class="number" id="email" type="text" style="font-size: 15px;" placeholder="Enter Email*" required>
+                    <input class="number" id="num" type="text" style="font-size: 15px;" placeholder="Enter mobile number*" required>
+                    <input class="number" id="password" type="text" style="font-size: 15px;" placeholder="Create password*" required>
+                    <div class="radioInput">
+                        <input type="radio"  id="radio" name="gender" value="Male"/> <span id="gender"> Male</span>  
+                        <br>
+                        <input type="radio" id="radio" name="gender" value="Female"/> <span id="gender"> Female</span>  
+                        <br/> 
+                    </div>
+                    <button id="submit" onclick="userInfo()">SUBMIT</button>
+            </div>  
+        </div>
+        <div id="clear" onclick="clearLogin()">
+            <i id="wrong" class="fa-sharp fa-regular fa-circle-xmark"></i>
+        </div>
+  </div>
+
+</body>
+    <script src="../JavaScript/login.js"></script>
+</html>
