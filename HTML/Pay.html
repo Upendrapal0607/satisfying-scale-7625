@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/bc5b4cdf6f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../CSS/pay.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <div class="content">
+          <a href="#">logo</a>
+        </div>
+        <div class="content-2">
+         <div class="secuirity">
+             <i class="fa-sharp fa-solid fa-lock"></i>
+             <p>Secure Payment</p>
+            </div>
+            <div class="secuirity">
+                <i class="fa-solid fa-star"></i>
+                <p>100% Genuine Products</p>
+            </div>
+            <div class="secuirity">
+                <i class="fa-sharp fa-regular fa-indian-rupee-sign"></i>
+                <p>Cash Delivery</p>
+            </div>
+        </div>
+    </nav>
+   
+    <!-- Navbar End -->
+<div class="main-container">
+<div class="Payment-Method">
+    <div class="Creadit-Debit">
+        <p id="heading">Credit/Debit Card</p>
+    </div>
+    <form action="" id="form-data">
+        <input type="text" class="Card-name" id="Card-name" placeholder="Name on card" required>
+        <p class="Sow-Error"></p>
+<div id="Card-number-1" class="Card-number-1">
+   
+    <input type="text" name="" id="Card-Number" class="Card-Number" placeholder="Card number">  
+<div class="vallet">
+    <input type="text" name="" id="cvv" class="cvv" placeholder="CVV">
+    <i class="fa-solid fa-wallet icon"></i>
+</div>
+</div>
+<p class="Sow-Error2"></p>
+<div class="Expiry-MM" id="Expiry-MM">
+    <input type="text" class="Expiry-mm" id="Expiry-mm" placeholder="Expiry MM" required>
+    <input type="text" class="Expiry-YY" id="Expiry-YY" placeholder="Expiry YY" required>
+</div>
+   
+<div id="check-box" class="check-box">
+    <input type="checkbox" name="" id="checkbox-inp" class="checkbox-inp">
+<p class="sujession">Save card for future use</p>
+</div>
+</form>
+<button id="btn-1" class="btn-1" onclick="sendnextpage()">Pay Rs,147</button>
+</div>
+
+<div class="upi" id="upi">
+  <div id="Upi">
+    <p class="upi-heading">UPI</p>
+  </div>
+  <div class="upi-option" id="upi-option-1" onclick="upi()">
+<img class="logo-img" src="https://media6.ppl-media.com/mediafiles/ecomm/promo/1554965305_google-pay.png" alt="">
+<p>upi</p>
+  </div>
+  <div class="upi-option" id="upi-option-2" onclick="Google()">
+<img class="logo-img" src="https://media6.ppl-media.com/mediafiles/ecomm/promo/1577193138_bhim-upi.png" alt="">
+<p>Google Pay</p>
+  </div>
+  <div class="upi-option" id="upi-option-3" onclick="Payment()">
+    <img class="logo-img" src="https://media6.ppl-media.com/mediafiles/ecomm/promo/1558704583_paytmupi.png" alt="">
+    <p>Payment UPI</p>
+  </div>
+</div>
+<div id="cash-delivery" class="cash-delivery">
+<div class="cash">
+  <p class="cash-heading">Cash on Delivery</p>
+</div>
+<div class="Delivery">
+  <i class="fa-solid fa-sack-dollar Cash"></i>
+  <p>Pay on Delivery</p>
+</div>
+</div>
+
+</div>
+<div class="upi-box-popup" id="upi-popup">
+<p class="your"></p>
+<input type="text" name="" id="Upi-id" class="Upi-id" placeholder="eg.abc">
+<button id="btn-2" class="btn-2" onclick="remove()">PAY rs.175</button>
+
+</div>
+    <script src="../JavaScript/pay.js"></script>
+  </body>
+</html>
