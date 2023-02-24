@@ -2,7 +2,7 @@ html,body{
 	margin: 0;
 }
 #line{
-	border-color:#FAFAFA;
+	border-color:gray;
 	margin-top: 0;
 	padding: 0;
 }
@@ -12,12 +12,12 @@ html,body{
 	margin-left: 1150px;
 	margin-top: 0;
 }
-a{
+/* a{
 	text-decoration: none;
 	color: #9E9E9E;
 	font-size: 14px;
 	font-family: arial;
-}
+} */
 a:hover{
 	color: #F50057;
 }
@@ -28,7 +28,7 @@ a:hover{
 	margin-left: 50px;
     justify-content: center;
     justify-content: space-around;
-    padding: 1px;
+    padding-bottom: 10px;
 }
 #search1{
 	margin-top: 10px;
@@ -56,17 +56,14 @@ a:hover{
 #categories{
 	display: flex;
 	gap: 35px;
-	height: 50px;
+	height: 45px;
 	width: 100%;
 	justify-content: center;
 	position:sticky;
 	top: 0;
-	box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
 	background-color: #FAFAFA;
-}
-#line-last{
-    margin-top: 20px;
-    position:absolute;
+    padding-top: 10px;
 }
 .popup .overlay{
     position: fixed;
@@ -243,6 +240,7 @@ input{
 #sub-categories{
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 }
 #sub-categories a{
     font-family: poppins;
@@ -259,6 +257,7 @@ h4{
 #sub-categories2{
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 }
 #sub-categories2 a{
     font-family: poppins;
@@ -303,4 +302,31 @@ h4{
     font-size: 12px;
     line-height: 30px;
     cursor: pointer;
+}
+#one{
+    text-decoration: none;
+	color: #9E9E9E;
+	font-size: 14px;
+	font-family: arial;
+}
+
+div>p>a{
+	text-decoration: none;
+	color: #9E9E9E;
+	font-size: 14px;
+	font-family: arial;
+}
+
+div>div>div>div>a{
+	text-decoration: none;
+	color: #9E9E9E;
+	font-size: 14px;
+	font-family: arial;
+}
+
+div>a{
+	text-decoration: none;
+	color: #9E9E9E;
+	font-size: 14px;
+	font-family: arial;
 }

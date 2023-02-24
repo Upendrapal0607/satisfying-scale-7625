@@ -1,0 +1,214 @@
+{
+    "users": [
+        {
+            "id":1,
+            "title":"hello",
+            "isCompleted":false
+        }, {
+            "id":2,
+            "title":"hello2",
+            "isCompleted":false
+        }
+    ],
+    "accounts": [
+            {
+                "id":1,
+                "name":"xyz",
+                "roll":909
+            },
+            {
+                "id":1,
+                "name":"xyz",
+                "roll":909
+            },
+            {
+                "id":3,
+                "name":"abc",
+                "roll":910
+            }
+    ],
+    "transactions": [
+
+    ],
+    "data":[
+        {
+            "id": 1,
+            "name": "lakme sun Expert SPF30 matte lotion",
+            "size": 50,
+            "price": 220,
+            "categories": "face sunscreen",
+            "discount": "Discounted-items",
+            "avatar": [
+              "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/279847/lakme-sun-expert-spf-30-ultra-matte-lotion-50-ml_3_display_1602322212_2799f1a6.jpg"
+            ],
+            "rating": {
+              "rate": 4.1,
+              "count": 259
+            },
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "name": "Mamaearth Ubten Natural Face Wash",
+            "size": 110,
+            "price": 227,
+            "categories": "face wash",
+            "discount": "7",
+            "avatar": [
+               " https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/317574/mamaearth-ubtan-natural-face-wash-for-dry-skin-with-turmeric-and-saffron-for-tan-removal-and-skin-brightning-100-ml_10_display_1581057835_f66663f0.jpg"
+            ],
+            "rating": {
+              "rate": 3.9,
+              "count": 21
+            },
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "name": "Swiss Beauty Primer Mousse Foundation - Rose-Blush",
+            "size": 30,
+            "price": 351,
+            "categories": "foundation",
+            "discount": "7",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/301773/swiss-beauty-pearl-illuminator-makeup-base-golden-pink-35-g_1_display_1590790685_d911ca04.jpg"
+            ],
+            "rating": {
+              "rate": 4.2,
+              "count": 2
+            },
+            "quantity": 3
+          },
+          {
+            "id": 4,
+            "name": "Stay Quirky Mini Liquid Lipstick Maroon - Vampire's Love Bite 30",
+            "size": 1.6,
+            "price": 125,
+            "categories": "lipstick",
+            "discount": "5",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/245941/stay-quirky-mini-liquid-lipstick-maroon-vampire-s-love-bite-30-1-6-ml-62_7_display_1654167804_9ab88e2a.jpg"
+            ],
+            "rating": {
+              "rate": 4.5,
+              "count": 1
+            },
+            "quantity": 1
+          },
+          {
+            "id": 5,
+            "name": "Lakme Eyeconic Kajal",
+            "size": 190,
+            "price": 227,
+            "categories": "kajal",
+            "discount": "10",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/283738/lakme-eyeconic-kajal-0-35g_2_display_1635920267_06deb700.jpg"
+            ],
+            "rating": {
+              "rate": 4.9,
+              "count": 12
+            },
+            "quantity": 5
+          },
+          {
+            "id": 6,
+            "name": "L'Oreal Paris Dream Lengths Shampoo",
+            "size": 500,
+            "price": 734,
+            "categories": "shampoo",
+            "discount": "35",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/333873/l-oreal-paris-dream-lengths-shampoo-1-l-15-26_8_display_1672032587_ff06c301.jpg"
+            ],
+            "rating": {
+              "rate": 4.5,
+              "count": 5
+            },
+            "quantity": 2
+          },
+          {
+            "id": 7,
+            "name": "Dove Intense repair Shampoo",
+            "size": 550,
+            "price": 780,
+            "categories": "shampoo",
+            "discount": "30",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/294329/dove-intense-repair-shampoo-1-ltr_1_display_1563250763_a2f26bf0.jpg"
+            ],
+            "rating": {
+              "rate": 4.2,
+              "count": 1
+            },
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "name": "Everyuth-Naturals-Advanced-Golden-Glow-peel-off-Mask",
+            "size": 110,
+            "price": 227,
+            "categories": "mask",
+            "discount": "6",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/343977/everyuth-naturals-advanced-golden-glow-peel-off-mask-with-24k-gold-50-g-10_3_display_1674278774_16b8dece.jpg"
+            ],
+            "rating": {
+              "rate": 3.5,
+              "count": 13
+            },
+            "quantity": 10
+          },
+          {
+            "id": 9,
+            "name": "Ozone-Signature-Kesharjadi-Taila",
+            "size": 110,
+            "price": 510,
+            "categories": "hair-oil",
+            "discount": "10",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/266279/ozone-signature-kesharjadi-taila-100-ml_1_display_1637731887_d709b912.jpg"
+            ],
+            "rating": {
+              "rate": 3.9,
+              "count": 20
+            },
+            "quantity": 15
+          },
+          {
+            "id": 10,
+            "name": "Nature-S-Essence-Aloe-Vera-Bathing-Bar",
+            "size": 75,
+            "price": 51,
+            "categories": "soap",
+            "discount": "27",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/202758/nature-s-essence-aloe-vera-bathing-bar-75-g_7_display_1655814341_24e9d333.jpg"
+            ],
+            "rating": {
+              "rate": 4.0,
+              "count": 30
+            },
+            "quantity": 4
+          },
+          {
+            "id": 2,
+            "name": "Manish-Malhotra-Antimicrobial-Sanitizing-Spra",
+            "size": 200,
+            "price": 244,
+            "categories": "sanitizer",
+            "discount": "30",
+            "avatar": [
+               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/235499/manish-malhotra-antimicrobial-sanitizing-spray_1_display_1625230983_138adec3.jpg"
+            ],
+            "rating": {
+              "rate": 3.1,
+              "count": 2
+            },
+            "quantity": 1
+          }
+         
+]
+    
+
+}

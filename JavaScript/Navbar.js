@@ -1,6 +1,6 @@
 function new1() {
     document.getElementById("popup-1").classList.toggle("active");
-
+    
 }
 
 var modal = document.getElementById("myModal");
@@ -41,5 +41,16 @@ span.onmouseout = function () {
 window.onclick = function (event) {
     if (event.target == moda) {
         moda.style.display = "none";
+    }
+}
+
+function submit2(){
+    if(0){
+        window.location.assign("../HTML/Cart.html");
+        console.log("shivam");
+    }
+    else{
+        window.location.assign("../HTML/Empty.html");
+        console.log("Upendr");
     }
 }
