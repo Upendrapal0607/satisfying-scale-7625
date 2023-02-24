@@ -80,7 +80,7 @@ img {
 }
 
 #facebook {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: grey;
     margin: auto;
     padding: 10px 0px 10px 0px;
@@ -88,7 +88,7 @@ img {
 }
 
 #google {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: grey;
     margin: auto;
     padding: 10px 0px 10px 0px;
@@ -142,11 +142,11 @@ body {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
 }
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
@@ -154,8 +154,26 @@ button {
     padding: 10px 10px;
     background: #222;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
     margin-top: 20px;
+}
+
+.adminLogin{
+    text-align: center;
+}
+#ad-log{
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #f9d3e8;
+    color: grey;
+    border-radius: 5px;
+}
+#ad-log:hover{
+    color: white;
+    background-color: #e40980;
+    
 }
