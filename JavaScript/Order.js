@@ -87,7 +87,7 @@ let Popup=document.getElementById('popup')
  Popup.classList.remove('open-popup')
 
  setTimeout(() => {
-  window.location.assign('/index.html')
+  window.location.assign('../HTML/Pay.html')
 
      }, 2000);
 
