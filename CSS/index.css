@@ -246,12 +246,6 @@
     
 }
 
-
-
-.mockgrid{
-
-}
-
 .mockgrid img{
     width: 100%;
 }
@@ -500,6 +494,26 @@
 .icons>a:nth-child(8) i{
     color: #0077b5;
 }
+
+
+
+.carousel-item{
+    width: 95%;
+}
+
+.carousel-item>img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* navbar css */
 
 
 
