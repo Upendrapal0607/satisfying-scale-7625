@@ -43,3 +43,14 @@ window.onclick = function (event) {
         moda.style.display = "none";
     }
 }
+
+function submit2(){
+    if(0){
+        window.location.assign("../HTML/Cart.html");
+        console.log("shivam");
+    }
+    else{
+        window.location.assign("../HTML/Empty.html");
+        console.log("Upendr");
+    }
+}
