@@ -1,6 +1,6 @@
 function new1() {
     document.getElementById("popup-1").classList.toggle("active");
-
+    
 }
 
 var modal = document.getElementById("myModal");

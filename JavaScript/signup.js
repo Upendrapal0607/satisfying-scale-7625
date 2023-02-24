@@ -13,7 +13,8 @@ function fetchNumber() {
         alert("Please enter vailid Number")
         return ;
     }
-
+    
+    
         let user = JSON.parse(localStorage.getItem("user")) || [];
         // console.log("user",user);
         // console.log("inputmon",inputmob);
@@ -33,4 +34,9 @@ function fetchNumber() {
 
     function clearLogin(){
         window.location.href = "index.html"
+    }
+
+
+    function renderToAdmin(){
+        window.location.href="admin-login.html"
     }
