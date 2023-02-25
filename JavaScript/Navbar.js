@@ -45,12 +45,12 @@ window.onclick = function (event) {
 }
 
 function submit2(){
-    if(0){
+    if([]){
         window.location.assign("../HTML/Cart.html");
-        console.log("shivam");
+      
     }
     else{
         window.location.assign("../HTML/Empty.html");
-        console.log("Upendr");
+      
     }
 }

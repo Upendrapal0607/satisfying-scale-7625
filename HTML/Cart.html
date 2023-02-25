@@ -4,39 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beautique.com/Cartpage</title>
     <link rel="stylesheet" href="../CSS/Cart.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+		<script src="https://kit.fontawesome.com/c4e502dbf0.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+  />
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 </head>
 <body>
    
 
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/flickity@2/dist/flickity.min.css"
-        />
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    
-       
-      </head>
-      <body>
-        <nav class="navbar">
-          <div class="content">
-            <a href="#">logo</a>
-          </div>
-          <div class="content-2">
-            <a href="#">shearch</a>
-            <a href="#">like</a>
-            <a href="#">login</a>
-          </div>
-        </nav>
-    
+
+
+     <div id="top" style=" box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 0.2rem; ">
+		<div id="second-line" >
+			<div>
+				<div>
+					<div id="search1">
+						<a href="#" id="myBtn">What are you looking for?</a>
+						<a id="search"><i id="myBtn" class="fas fa-search fa-lg"></i></a>
+					</div>
+					<a href="#" id="myBtn"> <hr id="search-line" /> </a>
+				</div>
+			</div>
+			
+			<div>
+				<a href="/index.html"><img id="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1Vjpr-OFuV9pLRCflPLeQY7RuJ8AalrBWNYqUSg00DiV2zfCsnN4wr0wAdZEYrSRaHlfTzAtU8RpJYhzZRlJNDD3vZz5WaHcG4tnIQc9GNHKP02yx-Fmdnr1Ev8utdG64JOEN3mgfKXIWGLPd6Ep1Mk8g5sDTTXE0T5-KOT9RBwQK93AbRioTE_7J/s480/Shivam-logo.jpeg" /></a>
+			</div>
+
+			<div class="basket-icons">
+				<a href="../signup.html"><i class="far fa-heart fa-3x"></i></a>
+				<a href="#" id="face" onmouseover="new1()"><i class="far fa-smile fa-3x" id="face"></i></i></a>
+		
+			</div>
+		</div>
+		</div>
+		
+		
+		<hr id="line-last" />
+		<div id="box-shadow"></div>
+		
+		
+		<div class="popup" id="popup-1">
+			<div class="overlay"></div>
+			<div class="content" id="centr" style="margin-top: -20px;">
+				<div id="data" >
+					<button id="signin"><a href="#" id="butt">Sign in</a></button>
+					<a href="#">New customer? start here.</a>
+					<a>Your orders</a>
+					<a>Your account</a>
+					<a href="#">Your Cart</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div id="register">
+					<p>Search for product or Brand</p>
+					<div class="align-top">
+						<input type="text" id="no-outline" />
+						<a id="search3" href="#"><i class="fas fa-search fa-lg"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="mymode" class="model">
+			<div id="content">
+				<span class="close1">&times;</span>
+				<div id="reg">
+					<p class="line">Makeup</p>
+					<p>Skin Care</p>
+					<p>Hair care</p>
+					<p>Appliances</p>
+					<p>Personal Care</p>
+					<p>Men</p>
+					<p>Fragrance</p>
+				</div>
+				
+				<div id="sub">
+					<div id="sub-categories">
+						<h4>FACE MAKEUP</h4>
+						<a href="#">Primer</a>
+						<a href="#">Concealer</a>
+						<a href="#">BB & CC Creams</a>
+						<a href="#">Makeup Remover</a>
+					</div>
+					
+					<div id="sub-categories2">
+						<h4>EYE MAKEUP</h4>
+						<a href="#">Eyeliner</a>
+						<a href="#">Eyeshadow</a>
+						<a href="#">Kajal</a>
+						<a href="#">Mascara</a>
+					</div>
+					
+					<div>
+						<h4>LIP MAKEUP</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+     <!-- Navbar End -->
         <div id="container">
           <!-- Start Card Product page -->
           <div class="Added-product">
@@ -82,6 +159,7 @@
                   <option value="4">4</option>
                   <option value="5">5</option>
                 </select>
+               
                 <div class="remove-btn">
                   <button>remove</button>
                   <button>Move to Wishlist</button>
@@ -117,6 +195,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/321620/faces-canada-weightless-stay-matte-compact-beige-03-9g_2_display_1661428635_321a5857.jpg"
                       alt=""
                     />
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -143,7 +222,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/315068/good-vibes-berry-nourishing-lip-balm-spf-15-4-2-g_1_display_1665984252_808a48de.jpg"
                       alt=""
                     />
-    
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -169,6 +248,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/288486/ny-bae-eye-love-eyeshadow-palette-light-and-bright-01_10_display_1671177927_d36b9ed7.jpg"
                       alt=""
                     />
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -199,6 +279,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/321620/faces-canada-weightless-stay-matte-compact-beige-03-9g_2_display_1661428635_321a5857.jpg"
                       alt=""
                     />
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -223,7 +304,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/315068/good-vibes-berry-nourishing-lip-balm-spf-15-4-2-g_1_display_1665984252_808a48de.jpg"
                       alt=""
                     />
-    
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -247,6 +328,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/288486/ny-bae-eye-love-eyeshadow-palette-light-and-bright-01_10_display_1671177927_d36b9ed7.jpg"
                       alt=""
                     />
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -275,6 +357,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/321620/faces-canada-weightless-stay-matte-compact-beige-03-9g_2_display_1661428635_321a5857.jpg"
                       alt=""
                     />
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -299,7 +382,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/315068/good-vibes-berry-nourishing-lip-balm-spf-15-4-2-g_1_display_1665984252_808a48de.jpg"
                       alt=""
                     />
-    
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -323,6 +406,7 @@
                       src="https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/288486/ny-bae-eye-love-eyeshadow-palette-light-and-bright-01_10_display_1671177927_d36b9ed7.jpg"
                       alt=""
                     />
+                    <button class="Add-cart">Add to Cart</button>
                     <button style="padding-top: 0rem">
                       <span>Free Gift</span>
                     </button>
@@ -402,7 +486,7 @@
               <p>You Save:</p>
               <span>₹ 76</span>
             </div>
-            <button id="Place-btn">PLACE ORDER</button>
+            <button id="Place-btn" onclick="SendPaymentPage()">PLACE ORDER</button>
           </div>
     
           <!-- End Right side part payment and place to order  -->
@@ -412,7 +496,7 @@
     
 
 
-
+    <script src="../JavaScript/Navbar.js"></script>
     <script src="../JavaScript/Cart.js"></script>
 </body>
 </html>
