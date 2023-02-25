@@ -322,6 +322,8 @@
   }
 
   #payment{
+    /* margin-top: 20px; */
+    /* border: 1px solid red; */
     height: 300px;
    cursor: pointer;
     display: flex;
@@ -335,12 +337,14 @@
   }
 
   #payment>div{
+   
     margin-top: 20px;
     text-align: center;
     padding: 10px;
   }
 
   #payment>div>h2{
+    /* margin-top: 20px ; */
     font-weight: 200;
     font-size: 25px;
     color: #6C7A82;
@@ -355,6 +359,7 @@
 
 
   #footer_cont{
+
     width: 90%;
     /* border: 1px solid red; */
     margin: auto;
@@ -403,13 +408,14 @@
     margin: auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     padding: 20px;
 }
 
 .footer_last>div:nth-child(2){
     /* border: 1px solid red; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* margin-right: 200px; */
     width: 22%;
 }
@@ -431,6 +437,7 @@
     width: 30%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     align-items: center;
   }
@@ -455,6 +462,7 @@
 }
 
 .icons>a{
+    align-items: center;
     border-radius: 50px;
     font-size: 25px;
 }
@@ -514,6 +522,277 @@
 
 
 /* navbar css */
+delete 
 
 
+
+#slider2{
+    cursor: pointer;
+}
+
+
+.slide-container2{
+    
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+ 
+ .boxEl2 .thumbnail2:hover{
+    transform: scale(1);
+}
+
+
+.boxEl2{
+
+    /* border: 2px solid red; */
+    height: 400px;
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.boxEl2>div img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxEl2::-webkit-scrollbar{
+ 
+    height: 5px;
+    width: 2px;
+    border: 1px solid #d5d5d5;
+    background: #d5d5d5;
+}
+
+.boxEl2::-webkit-scrollbar-track{
+    --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  
+}
+
+.boxEl2::-webkit-scrollbar-thumb{
+    background-color: purple;
+    outline: 1px solid #eee;
+}
+
+.boxEl2 .thumbnail2{
+    white-space: normal;
+   height: 300px;
+    flex: 0 0 auto;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 5px;
+    /* border: 1px solid black; */
+    /* border-radius: 3px; */
+    overflow: hidden;
+    transform: scale(.95);
+    transition: all .1s ease-in;
+}
+
+/* 
+.thumbnail>div{
+
+    width: 10%;
+} */
+
+.boxEl2 .thumbnail2:hover{
+    transform: scale(1);
+}
+
+
+.arrow{
+    cursor: pointer;
+    width: 2.5rem;
+    margin: 0 1rem;
+}
+
+
+#slider{
+    cursor: pointer;
+}
+
+#slider1{
+    cursor: pointer;
+}
+
+
+.slide-container1{
+     
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+ 
+ .boxEl1 .thumbnail1:hover{
+    transform: scale(1);
+}
+
+
+.boxEl1{
+
+    /* border: 2px solid red; */
+    height: 300px;
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.boxEl1>div img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxEl1::-webkit-scrollbar{
+ 
+    height: 5px;
+    width: 2px;
+    border: 1px solid #d5d5d5;
+    background: #d5d5d5;
+}
+
+.boxEl1::-webkit-scrollbar-track{
+    --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  
+}
+
+.boxEl1::-webkit-scrollbar-thumb{
+    background-color: purple;
+    outline: 1px solid #eee;
+}
+
+.boxEl1 .thumbnail1{
+   height: 300px;
+    flex: 0 0 auto;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 5px;
+    /* border: 1px solid black; */
+    /* border-radius: 3px; */
+    overflow: hidden;
+    transform: scale(.95);
+    transition: all .1s ease-in;
+}
+
+/* 
+.thumbnail>div{
+
+    width: 10%;
+} */
+
+.boxEl1 .thumbnail1:hover{
+    transform: scale(1);
+}
+
+.margins1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.boxEl{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main{
+    /* background-color: #f4f4f4; */
+    padding: 1rem 0;
+}
+
+.slide-container{
+    
+    max-width: 890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.boxEl{
+
+    /* border: 2px solid red; */
+    height: 300px;
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.boxEl>div img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxEl::-webkit-scrollbar{
+ 
+    height: 5px;
+    width: 2px;
+    border: 1px solid #d5d5d5;
+    background: #d5d5d5;
+}
+
+.boxEl::-webkit-scrollbar-track{
+    --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  
+}
+
+.boxEl::-webkit-scrollbar-thumb{
+    background-color: purple;
+    outline: 1px solid #eee;
+}
+
+.boxEl .thumbnail{
+   height: 300px;
+    flex: 0 0 auto;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 5px;
+    /* border: 1px solid black; */
+    /* border-radius: 3px; */
+    overflow: hidden;
+    transform: scale(.95);
+    transition: all .3s;
+}
+
+/* 
+.thumbnail>div{
+
+    width: 10%;
+} */
+
+.boxEl .thumbnail:hover{
+    transform: scale(1);
+}
+
+.head1{
+    font-weight: 700;
+    font-size: 25px;
+    color: #6C7A82;
+    margin-left: 20px;
+}
 
