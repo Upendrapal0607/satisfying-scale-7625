@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Mulish:wght@700&family=Poppins:wght@100;200&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Mulish:wght@700&family=Poppins:wght@100;200&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <script src="../JavaScript/signup.js"></script>
     
    
@@ -23,31 +24,40 @@
             </a>
         </div>
     </div>
+    <div class="logInAfter">
+            <div id="logPage">
+                <h2>Login/Create Account</h2>
+                <p>Enter your Mobile Number* </p>
 
-    <div id="logPage">
-        <h2>Login/Create Account</h2>
-        <p>Enter your Mobile Number* </p>
+                <div class="numInput">   
+                        <input id="number" type="text" style="font-size: 15px;" placeholder="Enter your Number" required>
+                    <div class="arrow" id="arrow">
+                        <i onclick="fetchNumber()" id="btn" class="fa-sharp fa-solid fa-circle-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <p id="connect">or connect with </p>
+                
+                <div id="last">
+                    <div id="face">
+                        <img src="https://media6.ppl-media.com/mediafiles/ecomm/misc/1542974744_fb-logo.png">
+                        <div id="facebook">FACEBOOK</div>
+                    </div>
+                    <div id="goog">
+                        <img src="https://media6.ppl-media.com/mediafiles/ecomm/misc/1542974745_google-logo.png">
+                        <div id="google">GOOGLE</div>
+                    </div>
+                </div>
 
-        <div class="numInput">   
-                <input id="number" type="text" style="font-size: 15px;" placeholder="Enter your Number">
-            <div class="arrow" id="arrow">
-                <i onclick="fetchNumber()" id="btn" class="fa-sharp fa-solid fa-circle-arrow-right"></i>
+                <div class="adminLogin">
+                    <button id="ad-log" onclick="renderToAdmin()">Admin - Login</button>
+                </div>
+
+                <div id="clear" onclick="clearLogin()">
+                    <i id="wrong" class="fa-sharp fa-regular fa-circle-xmark"></i>
+                </div>
             </div>
-        </div>
-        
-        <p id="connect">or connect with </p>
-        
-        <div id="last">
-            <div id="face">
-                <img src="https://media6.ppl-media.com/mediafiles/ecomm/misc/1542974744_fb-logo.png">
-                <div id="facebook">FACEBOOK</div>
-            </div>
-            <div id="goog">
-                <img src="https://media6.ppl-media.com/mediafiles/ecomm/misc/1542974745_google-logo.png">
-                <div id="google">GOOGLE</div>
-            </div>
-        </div>
-    <div>
+    </div>
 </body>
 
 </html>

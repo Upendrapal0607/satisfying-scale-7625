@@ -46,7 +46,7 @@ buttonLeft2.addEventListener("click",() => {
 
     slider2.scrollLeft += 150;
  
-  })
+  }) 
   
  
   const maxScrollLeft2 =  slider2.scrollWidth - slider2.clientWidth
@@ -149,5 +149,6 @@ for(let i=0; i<thumbnail.length; i++){
         return play = setInterval(autoPlay,30)
   })
 }
+
 
 
