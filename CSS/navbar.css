@@ -1,4 +1,6 @@
-html,body{
+
+
+ html,body{
 	margin: 0;
 }
 #line{
@@ -60,7 +62,9 @@ a:hover{
 	width: 100%;
 	justify-content: center;
 	position:sticky;
+    
 	top: 0;
+  
 	box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
 	background-color: #FAFAFA;
     padding-top: 10px;
@@ -326,6 +330,7 @@ div>div>div>div>a{
 
 div>a{
 	text-decoration: none;
+
 	color: #9E9E9E;
 	font-size: 14px;
 	font-family: arial;

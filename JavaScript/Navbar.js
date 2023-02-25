@@ -45,9 +45,11 @@ window.onclick = function (event) {
 }
 
 function submit2(){
+
     if([]){
         window.location.assign("../HTML/Cart.html");
       
+
     }
     else{
         window.location.assign("../HTML/Empty.html");
