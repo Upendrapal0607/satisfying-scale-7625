@@ -45,7 +45,7 @@ window.onclick = function (event) {
 }
 
 function submit2(){
-    if([]){
+    if(0){
         window.location.assign("../HTML/Cart.html");
         console.log("shivam");
     }
