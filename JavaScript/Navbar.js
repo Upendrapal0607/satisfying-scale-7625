@@ -45,16 +45,10 @@ window.onclick = function (event) {
 }
 
 function submit2(){
-<<<<<<< HEAD
-    if(0){
-=======
-
-    if([]){
->>>>>>> 6e25464ea0de1cae52d95d7140796155e6338506
-        window.location.assign("../HTML/Cart.html");
-      
-
-    }
+    let addToCart=JSON.parse(localStorage.getItem('cartData'))||[]
+if(addToCart.length>0){
+  window.location.assign("../HTML/Cart.html");
+       }
     else{
         window.location.assign("../HTML/Empty.html");
       
