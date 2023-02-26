@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.admin-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#fetch-data-button {
+    width: 45%;
+    position: relative;
+}
+#add-data-button{
+    width: 45%;
+    position: relative;
+}
+.btn{
+    height: 40px;
+    margin-left: 20px;
+    display: flex;
+    padding: 20px;
+}
+#fetch-data-button,#add-data-button{
+   cursor: pointer;
+   margin-left: 40px;
+   height: 30px;
+   background-color: #f9d3e8;
+   border: none;
+   border-radius: 12px;
+}
+#add-data-button:hover{
+    background-color: #e40980;
+    color: white;
+}
+#fetch-data-button:hover{
+    background-color: #e40980;
+    color: white;
+}
+#deletebtn{
+    color: black;
+    border-radius: 5px;
+    background-color: #fbd2ea;
+    border: 1px solid grey;
+    font-family: 'Poppins', sans-serif;
+
+}
+#add-modal {
+    width: 15%;
+    float:left;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+}
+
+#data-table {
+    width: 100%;
+    float:right;
+    margin-left:20px;
+}
+
+#add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#add-form label {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+#add-form input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th, #data-table td {
+    border: 1px solid rgb(0, 0, 35);
+    padding: 8px;
+}
+
+#data-table th {
+    background-color: #f2f2f2;
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #f9d3e8;
+}
+
+#data-table tr:hover {
+    background-color: #ddd;
+}
+
+#data-table th {
+    text-align: center;
+}
+
+.close{
+    cursor: pointer;
+    font-size: 30px;
+}
+td{
+    text-align: center;
+}
+.submit{
+    outline: none;
+    border: none;
+    background-color: #e40980;
+    border-radius: 5px;
+    color: #ddd;
+}

@@ -1,0 +1,308 @@
+  /* Navbar start */
+  *{
+    /* margin: 0px; */
+    padding: 0px;
+  font-family: 'Roboto Condensed', sans-serif; ;
+  }
+     .navbar {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 75px;
+   
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .content {
+    width: 30%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+       /* border: 1px solid green; */
+       display: flex;
+    }
+    
+    .content-2 {
+      /* border: 1px solid green; */
+    width: 50%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    display: flex;
+  }
+  .secuirity{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    /* border: 2px solid blue; */
+    /* justify-content: space-around; */
+    font-family: 'Roboto Condensed', sans-serif;
+    gap: 10px;
+  }
+     /* Navbar End  */
+/* Creadit Card part start */
+.main-container{
+width: 50%;
+/* border: 1px solid red; */
+margin: auto;
+margin: 5% 25%;
+}
+
+.Creadit-Debit,#Upi,.cash{
+display: flex;
+width: 100%;
+/* height: 200px; */
+background-color: #EEEEEE;
+align-items: center;
+/* text-align: center; */
+}
+#heading,.upi-heading{
+/* text-align: center; */
+color: #6d6c6c;
+font-size: 18px;
+margin-left: 0.5rem;
+line-height: 0px;
+font-family: 'Roboto', sans-serif;
+padding: 7px;
+
+}
+.Payment-Method,.upi,.cash-delivery{
+width: 100%;
+/* height: 600px; */
+border: 1px solid #E0E0E0;
+}
+#form-data{
+margin-left: 20px;
+}
+.Card-name{
+margin-top: 1rem;
+width: 70%;
+padding: 5px;
+outline: none;
+
+}
+.Sow-Error,.Sow-Error2{
+color: red;
+font-size: 0.8rem;
+margin-top: 1px;
+}
+.Card-number-1{
+margin-top: -1rem;
+width: 65%;
+/* border: 1px solid red; */
+display: flex;
+justify-content: space-between;
+/* padding: 5px; */
+/* outline: none; */
+}
+.Card-Number{
+width:50%;
+margin-top: 1.6rem;
+/* width: 70%; */
+padding: 5px;
+outline: none;
+/* border: ; */
+}
+.vallet{
+
+display: flex;
+
+width: 40%;
+/* border: 2px solid blue; */
+}
+.cvv{
+margin-top: 1.6rem;
+/* width: 70%; */
+padding: 5px;
+outline: none;
+
+width: 80%;
+}
+.icon{
+/* width: 40%; */
+height: 1rem;
+margin-left: -1.5rem;
+margin-top: 2rem;
+/* border: 1px solid green; */
+color: #6d6c6c;
+}
+.Expiry-MM{
+width: 45%;
+display: flex;
+/* margin-top: 1rem; */
+justify-content: space-between;
+}
+.Expiry-mm,.Expiry-YY{
+margin-top: 1rem;
+width: 40%;
+padding: 5px;
+outline: none;
+}
+.check-box{
+width: 45%;
+display: flex;
+gap: 10px;
+/* border: 1px solid red; */
+/* justify-content:center; */
+align-items:center ;
+/* margin: auto; */
+margin-top: 1rem;
+}
+
+.sujession{
+color: #6d6c6c;
+}
+
+.btn-1{
+border: none;
+border-radius: 0.2rem;
+width: 25%;
+padding: 0.7rem;
+text-align: center;
+margin: 2rem 0rem;
+color: aliceblue;
+background-color: purple;
+margin-left: 20px;
+}
+.btn-1:hover{
+cursor: pointer;
+padding: 0.8rem;
+background-color: rgb(207, 4, 207);
+
+}
+
+/* .upi{
+width: 100%;
+
+border: 1px solid #6d6c6c;
+} */
+
+#upi{
+margin-top: 30px;
+}
+.upi-option{
+width: 90%;
+margin-left: 20px;
+border-bottom: 1px solid #E0E0E0;
+/* border-top: 1px solid red; */
+display: flex;
+gap: 2rem;
+/* justify-content: space-between; */
+align-items: center;
+margin-top: 20px;
+}
+.upi-option:hover{
+cursor: pointer;
+color: green;
+
+}
+.upi-option:nth-child(4){
+border: none;
+}
+.logo-img{
+width: 8%;
+margin: 1rem 0px;
+}
+.logo-img:hover{
+width: 9%;
+}
+.Delivery{
+width:30%;
+margin-left: 1rem;
+display: flex;
+align-items: center;
+/* border: 1px solid rebeccapurple; */
+gap: 2rem;
+}
+.Delivery:hover{
+color: green;
+cursor: pointer;
+/* background-color: aqua; */
+border-radius: 1rem;
+
+}
+
+.cash-delivery{
+margin-top: 20px;
+}
+.cash-heading{
+color: #6d6c6c;
+font-size: 18px;
+margin-left: 0.5rem;
+line-height: 0px;
+font-family: 'Roboto', sans-serif;
+padding: 7px;
+
+}
+
+.upi-box-popup{
+width: 280px;
+height: 150px;
+/* border: 1px solid red; */
+display: flex;
+flex-direction: column;
+gap:1rem;
+/* margin-bottom: 20px; */
+}
+
+.Upi-id{
+padding: 0.4rem;
+outline: none;
+width: 84%;
+
+}
+.btn-2{
+
+background-color: #C51162;
+border: none;
+border-radius: 4px;
+width: 90%;
+padding: 0.6rem;
+}
+.btn-2:hover{
+cursor: pointer;
+}
+.your{
+margin-bottom: -5px;
+}
+
+
+.upi-box-popup{
+visibility: hidden;
+
+
+
+}
+.upi-box-popup-1{
+visibility: visible;
+margin-top: -39%;
+margin-left: 33%;
+border: none;
+
+}
+.upi-box-popup-2{
+visibility: visible;
+margin-top: -31%;
+margin-left: 33%;
+}
+
+.upi-box-popup-3{
+visibility: visible;
+margin-top: -25%;
+margin-left: 33%;
+}
+.u{
+margin-top: 6.5rem;
+}
+
+.u1{
+margin-top: 6.5rem;
+}
+.u2{
+padding-bottom: 6.5rem;
+}
