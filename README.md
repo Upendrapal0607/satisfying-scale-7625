@@ -17,9 +17,13 @@ HTML
 CSS
 JavaScript
  
+![Capture png2](https://user-images.githubusercontent.com/112810287/221392779-3436afb6-cc73-4344-98e2-5ca234cc60c1.PNG)
 
+![Capture png1](https://user-images.githubusercontent.com/112810287/221392771-22042591-737c-4f93-831a-98ebe09cde1c.PNG)
 
 ![Capture PNG4](https://user-images.githubusercontent.com/112810287/221392723-2de47c91-4b3e-48b5-8d73-541a80ab0b8e.PNG)
+
+![Capture PNG3](https://user-images.githubusercontent.com/112810287/221392795-94c5d523-9464-49f3-9a60-2d610cad499d.PNG)
 
 
 
