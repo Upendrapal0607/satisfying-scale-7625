@@ -17,6 +17,7 @@ HTML<br>
 CSS<br>
 JavaScript<br>
 
+Following are the Screenshots for the reference
 
  ** Navbar page **
 ![Capture png2](https://user-images.githubusercontent.com/112810287/221392779-3436afb6-cc73-4344-98e2-5ca234cc60c1.PNG)
