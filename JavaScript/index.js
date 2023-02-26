@@ -1,4 +1,7 @@
 
+ function sendProdcut(){
+     window.location.assign("../HTML/product.html")
+ }
 
 
 

@@ -45,10 +45,13 @@ window.onclick = function (event) {
 }
 
 function submit2(){
+
+
     let addToCart=JSON.parse(localStorage.getItem('cartData'))||[]
 if(addToCart.length>0){
   window.location.assign("../HTML/Cart.html");
        }
+
     else{
         window.location.assign("../HTML/Empty.html");
       
