@@ -1,187 +1,477 @@
 {
-    "users": [{
-      "username":"jivak",
-      "password":"admin"
-    }],
-    "data":[
+  "users": [
+      {
+          "id":1,
+          "username":"jivak",
+          "password":"admin"
+      }
+  ],
+  
+  "data":[
+      {
+          "id": 1,
+          "name": "lakme sun Expert SPF30 matte lotion",
+          "size": 50,
+          "price": 220,
+          "categories": "face sunscreen",
+          "discount": "Discounted-items",
+          "avatar": [
+            "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/279847/lakme-sun-expert-spf-30-ultra-matte-lotion-50-ml_3_display_1602322212_2799f1a6.jpg"
+          ],
+          "rating": {
+            "rate": 4.1,
+            "count": 259
+          },
+          "quantity": 1
+        },
         {
-            "id": 1,
-            "name": "lakme sun Expert SPF30 matte lotion",
-            "size": 50,
-            "price": 220,
-            "categories": "face sunscreen",
-            "discount": "Discounted-items",
-            "avatar": [
-              "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/279847/lakme-sun-expert-spf-30-ultra-matte-lotion-50-ml_3_display_1602322212_2799f1a6.jpg"
-            ],
-            "rating": {
-              "rate": 4.1,
-              "count": 259
-            },
-            "quantity": 1
+          "id": 2,
+          "name": "Mamaearth Ubten Natural Face Wash",
+          "size": 110,
+          "price": 227,
+          "categories": "face wash",
+          "discount": "7",
+          "avatar": [
+             " https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/317574/mamaearth-ubtan-natural-face-wash-for-dry-skin-with-turmeric-and-saffron-for-tan-removal-and-skin-brightning-100-ml_10_display_1581057835_f66663f0.jpg"
+          ],
+          "rating": {
+            "rate": 3.9,
+            "count": 21
           },
-          {
-            "id": 2,
-            "name": "Mamaearth Ubten Natural Face Wash",
-            "size": 110,
-            "price": 227,
-            "categories": "face wash",
-            "discount": "7",
-            "avatar": [
-               " https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/317574/mamaearth-ubtan-natural-face-wash-for-dry-skin-with-turmeric-and-saffron-for-tan-removal-and-skin-brightning-100-ml_10_display_1581057835_f66663f0.jpg"
-            ],
-            "rating": {
-              "rate": 3.9,
-              "count": 21
-            },
-            "quantity": 1
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "Swiss Beauty Primer Mousse Foundation - Rose-Blush",
+          "size": 30,
+          "price": 351,
+          "categories": "foundation",
+          "discount": "7",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/301773/swiss-beauty-pearl-illuminator-makeup-base-golden-pink-35-g_1_display_1590790685_d911ca04.jpg"
+          ],
+          "rating": {
+            "rate": 4.2,
+            "count": 2
           },
-          {
-            "id": 3,
-            "name": "Swiss Beauty Primer Mousse Foundation - Rose-Blush",
-            "size": 30,
-            "price": 351,
-            "categories": "foundation",
-            "discount": "7",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/301773/swiss-beauty-pearl-illuminator-makeup-base-golden-pink-35-g_1_display_1590790685_d911ca04.jpg"
-            ],
-            "rating": {
-              "rate": 4.2,
-              "count": 2
-            },
-            "quantity": 3
+          "quantity": 3
+        },
+        {
+          "id": 4,
+          "name": "Stay Quirky Mini Liquid Lipstick Maroon - Vampire's Love Bite 30",
+          "size": 1.6,
+          "price": 125,
+          "categories": "lipstick",
+          "discount": "5",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/245941/stay-quirky-mini-liquid-lipstick-maroon-vampire-s-love-bite-30-1-6-ml-62_7_display_1654167804_9ab88e2a.jpg"
+          ],
+          "rating": {
+            "rate": 4.5,
+            "count": 1
           },
-          {
-            "id": 4,
-            "name": "Stay Quirky Mini Liquid Lipstick Maroon - Vampire's Love Bite 30",
-            "size": 1.6,
-            "price": 125,
-            "categories": "lipstick",
-            "discount": "5",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/245941/stay-quirky-mini-liquid-lipstick-maroon-vampire-s-love-bite-30-1-6-ml-62_7_display_1654167804_9ab88e2a.jpg"
-            ],
-            "rating": {
-              "rate": 4.5,
-              "count": 1
-            },
-            "quantity": 1
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Lakme Eyeconic Kajal",
+          "size": 190,
+          "price": 227,
+          "categories": "kajal",
+          "discount": "10",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/283738/lakme-eyeconic-kajal-0-35g_2_display_1635920267_06deb700.jpg"
+          ],
+          "rating": {
+            "rate": 4.9,
+            "count": 12
           },
-          {
-            "id": 5,
-            "name": "Lakme Eyeconic Kajal",
-            "size": 190,
-            "price": 227,
-            "categories": "kajal",
-            "discount": "10",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/283738/lakme-eyeconic-kajal-0-35g_2_display_1635920267_06deb700.jpg"
-            ],
-            "rating": {
-              "rate": 4.9,
-              "count": 12
-            },
-            "quantity": 5
+          "quantity": 5
+        },
+        {
+          "id": 6,
+          "name": "L'Oreal Paris Dream Lengths Shampoo",
+          "size": 500,
+          "price": 734,
+          "categories": "shampoo",
+          "discount": "35",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/333873/l-oreal-paris-dream-lengths-shampoo-1-l-15-26_8_display_1672032587_ff06c301.jpg"
+          ],
+          "rating": {
+            "rate": 4.5,
+            "count": 5
           },
-          {
-            "id": 6,
-            "name": "L'Oreal Paris Dream Lengths Shampoo",
-            "size": 500,
-            "price": 734,
-            "categories": "shampoo",
-            "discount": "35",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/333873/l-oreal-paris-dream-lengths-shampoo-1-l-15-26_8_display_1672032587_ff06c301.jpg"
-            ],
-            "rating": {
-              "rate": 4.5,
-              "count": 5
-            },
-            "quantity": 2
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "name": "Dove Intense repair Shampoo",
+          "size": 550,
+          "price": 780,
+          "categories": "shampoo",
+          "discount": "30",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/294329/dove-intense-repair-shampoo-1-ltr_1_display_1563250763_a2f26bf0.jpg"
+          ],
+          "rating": {
+            "rate": 4.2,
+            "count": 1
           },
-          {
-            "id": 7,
-            "name": "Dove Intense repair Shampoo",
-            "size": 550,
-            "price": 780,
-            "categories": "shampoo",
-            "discount": "30",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/294329/dove-intense-repair-shampoo-1-ltr_1_display_1563250763_a2f26bf0.jpg"
-            ],
-            "rating": {
-              "rate": 4.2,
-              "count": 1
-            },
-            "quantity": 1
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": "Everyuth-Naturals-Advanced-Golden-Glow-peel-off-Mask",
+          "size": 110,
+          "price": 227,
+          "categories": "mask",
+          "discount": "6",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/343977/everyuth-naturals-advanced-golden-glow-peel-off-mask-with-24k-gold-50-g-10_3_display_1674278774_16b8dece.jpg"
+          ],
+          "rating": {
+            "rate": 3.5,
+            "count": 13
           },
-          {
-            "id": 8,
-            "name": "Everyuth-Naturals-Advanced-Golden-Glow-peel-off-Mask",
-            "size": 110,
-            "price": 227,
-            "categories": "mask",
-            "discount": "6",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/343977/everyuth-naturals-advanced-golden-glow-peel-off-mask-with-24k-gold-50-g-10_3_display_1674278774_16b8dece.jpg"
-            ],
-            "rating": {
-              "rate": 3.5,
-              "count": 13
-            },
-            "quantity": 10
+          "quantity": 10
+        },
+        {
+          "id": 9,
+          "name": "Ozone-Signature-Kesharjadi-Taila",
+          "size": 110,
+          "price": 510,
+          "categories": "hair-oil",
+          "discount": "10",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/266279/ozone-signature-kesharjadi-taila-100-ml_1_display_1637731887_d709b912.jpg"
+          ],
+          "rating": {
+            "rate": 3.9,
+            "count": 20
           },
-          {
-            "id": 9,
-            "name": "Ozone-Signature-Kesharjadi-Taila",
-            "size": 110,
-            "price": 510,
-            "categories": "hair-oil",
-            "discount": "10",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/266279/ozone-signature-kesharjadi-taila-100-ml_1_display_1637731887_d709b912.jpg"
-            ],
-            "rating": {
-              "rate": 3.9,
-              "count": 20
-            },
-            "quantity": 15
+          "quantity": 15
+        },
+        {
+          "id": 10,
+          "name": "Nature-S-Essence-Aloe-Vera-Bathing-Bar",
+          "size": 75,
+          "price": 51,
+          "categories": "soap",
+          "discount": "27",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/202758/nature-s-essence-aloe-vera-bathing-bar-75-g_7_display_1655814341_24e9d333.jpg"
+          ],
+          "rating": {
+            "rate": 4.0,
+            "count": 30
           },
-          {
-            "id": 10,
-            "name": "Nature-S-Essence-Aloe-Vera-Bathing-Bar",
-            "size": 75,
-            "price": 51,
-            "categories": "soap",
-            "discount": "27",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/202758/nature-s-essence-aloe-vera-bathing-bar-75-g_7_display_1655814341_24e9d333.jpg"
-            ],
-            "rating": {
-              "rate": 4.0,
-              "count": 30
-            },
-            "quantity": 4
+          "quantity": 4
+        },
+        {
+          "id": 11,
+          "name": "Manish-Malhotra-Antimicrobial-Sanitizing-Spra",
+          "size": 200,
+          "price": 244,
+          "categories": "sanitizer",
+          "discount": "30",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/235499/manish-malhotra-antimicrobial-sanitizing-spray_1_display_1625230983_138adec3.jpg"
+          ],
+          "rating": {
+            "rate": 3.1,
+            "count": 2
           },
-          {
-            "id": 2,
-            "name": "Manish-Malhotra-Antimicrobial-Sanitizing-Spra",
-            "size": 200,
-            "price": 244,
-            "categories": "sanitizer",
-            "discount": "30",
-            "avatar": [
-               "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/235499/manish-malhotra-antimicrobial-sanitizing-spray_1_display_1625230983_138adec3.jpg"
-            ],
-            "rating": {
-              "rate": 3.1,
-              "count": 2
-            },
-            "quantity": 1
-          }
-         
+          "quantity": 1
+        },
+        {
+          "id": 12,
+          "name": "Lakme-ASbsolute-Under-cover-gel-face-primer",
+          "size": 30,
+          "price": 743,
+          "categories": "primer",
+          "discount": "10",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/177244/lakme-absolute-under-cover-gel-face-primer-30-g_1_display_1565351964_a3d491e5.jpg"
+          ],
+          "rating": {
+            "rate": 3.6,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 13,
+          "name": "Colorbar-Cosmetics-Flawless-Finish-primer",
+          "size": 30,
+          "price": 349,
+          "categories": "primer",
+          "discount": "30",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/206610/colorbar-cosmetics-flawless-finish-primer-30ml-ffp001_2_display_1599304855_7a10b52e.jpg"
+          ],
+          "rating": {
+            "rate": 3.8,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 14,
+          "name": "Lakme-9-to-5-Primer-Matte-Powder-Foundation-compact-ivory-cream",
+          "size": 9,
+          "price": 510,
+          "categories": "Foundation",
+          "discount": "15",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/125049/lakme-9-to-5-primer-matte-powder-foundation-compact-ivory-cream-9-g_7_display_1666091988_b0eb3c52.jpg"
+          ],
+          "rating": {
+            "rate":4.0,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 15,
+          "name": "Sugar-Cosmetics-Ace-Of-Face-Foundation-Stick-17-Raf-Light-Golden-Undertone",
+          "size": 10,
+          "price": 849,
+          "categories": "Foundation",
+          "discount": "15",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/170651/sugar-cosmetics-ace-of-face-foundation-stick-17-raf-light-golden-undertone_2_display_1628580593_c818e2f0.jpg"
+          ],
+          "rating": {
+            "rate": 3.7,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 16,
+          "name": "Sugar-All-Set-To-Go-Translucent-Powder",
+          "size": 80,
+          "price": 509,
+          "categories": "powder",
+          "discount": "15",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/148913/sugar-all-set-to-go-translucent-powder_2_display_1628581461_773bad0b.jpg"
+          ],
+          "rating": {
+            "rate": 4.4,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 17,
+          "name": "Swiss-Beauty-Ultra-Fine-Loose-Powder",
+          "size": 8,
+          "price": 373,
+          "categories": "powder",
+          "discount": "17",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/205770/swiss-beauty-ultra-fine-loose-powder-5-10-g_1_display_1599734337_6cb21657.jpg"
+          ],
+          "rating": {
+            "rate": 3.9,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 18,
+          "name": "Blue-Heaven-Forever-Matte-Sindoor-Red",
+          "size": 8,
+          "price": 80,
+          "categories": "sindoor",
+          "discount": "20",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/259359/blue-heaven-forever-matte-sindoor-red-8ml_6_display_1661779731_bb76ee78.jpg"
+          ],
+          "rating": {
+            "rate": 3.5,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 19,
+          "name": "Faces-Canada-Liquid-Sindoor-Red-And-Maroon",
+          "size": 5,
+          "price": 284,
+          "categories": "sindoor",
+          "discount": "5",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/241855/faces-canada-liquid-sindoor-red-and-maroon-5-ml_5_display_1673349058_94fb4f43.jpg"
+          ],
+          "rating": {
+            "rate": 3.7,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 20,
+          "name": "Good-Vibes-Cucumber-And-Lemon-Under-Eye-Serum",
+          "size": 10,
+          "price": 232,
+          "categories": "eye serum",
+          "discount": "10",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/310021/good-vibes-cucumber-and-lemon-under-eye-serum-anti-ageing-rejuvenating-brightening-no-sulphates-no-parabens-no-animal-testing-10-ml_1_display_1656922089_b0090471.jpg"
+          ],
+          "rating": {
+            "rate": 3.8,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 21,
+          "name": "DermDoc-1-1-Percentage-Hyaluronic-Moisturizing-Under-Eye-Serum",
+          "size": 15,
+          "price": 105,
+          "categories": "eye serum",
+          "discount": "62",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/287358/dermdoc-1-1-percentage-hyaluronic-moisturizing-under-eye-serum-15-ml-under-eye-serum-lightweight-serum-paraben-free-sulfate-free-cruelty-free-under-eye-serum_16_display_1667464339_1ce6176c.jpg"
+          ],
+          "rating": {
+            "rate": 3.5,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 22,
+          "name": "NY-Bae-Lipstick-Runway-Minis-High-Style-Set-of-4-mini-lipsticks",
+          "size": 4,
+          "price": 130,
+          "categories": "lipstick",
+          "discount": "50",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/278640/ny-bae-lipstick-runway-minis-high-style-set-of-4-mini-lipsticks-kit-2-1-4-g-x-4_1_display_1637219728_1a7fa844.jpg"
+          ],
+          "rating": {
+            "rate": 4.3,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 23,
+          "name": "FacesCanada-Comfy-Matte-Lip-Color-Hope-This-Helps",
+          "size": 1.2,
+          "price": 162,
+          "categories": "lipstick",
+          "discount": "35",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/314135/facescanada-comfy-matte-lip-color-hope-this-helps-06-1-2ml_12_display_1671006305_505a7066.jpg"
+          ],
+          "rating": {
+            "rate": 4.2,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 24,
+          "name": "Bella-Voste-Nail-Paints-You-go-Girl",
+          "size": 9,
+          "price": 69,
+          "categories": "nail polish",
+          "discount": "30",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/161999/bella-voste-nail-paints-you-go-girl-9-ml_1_display_1525858367_60a46432.jpg"
+          ],
+          "rating": {
+            "rate": 3.9,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 25,
+          "name": "Asfa-Halal-Nail-Polish-creame-matte-Glowing-Coral",
+          "size": 7,
+          "price": 105,
+          "categories": "nail polish",
+          "discount": "5",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/223261/asfa-halal-nail-polish-creame-matte-glowing-coral-009-7-ml_1_display_1617111292_09c422f6.jpg"
+          ],
+          "rating": {
+            "rate": 3.6,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 26,
+          "name": "Sugar-Pop-Longwear-Compact-02-Beige",
+          "size": 9,
+          "price": 224,
+          "categories": "mirror",
+          "discount": "10",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/292336/sugar-pop-longwear-compact-02-beige30gm_1_display_1664190153_945499b2.jpg"
+          ],
+          "rating": {
+            "rate": 4.1,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 27,
+          "name": "Gubb-Quick-Touch-Up-Combo-Dual-Pocket-Mirror",
+          "size": 1,
+          "price": 331,
+          "categories": "mirror",
+          "discount": "20",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/319968/gubb-quick-touch-up-combo-dual-pocket-mirror-and-beauty-blender-magenta_1_display_1626268331_90950a1a.jpg"
+          ],
+          "rating": {
+            "rate": 3.7,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 28,
+          "name": "Carmesi-Natural-Deodorant-Roll-On-Floral-Sunset",
+          "size": 100,
+          "price": 179,
+          "categories": "Deodorant",
+          "discount": "28",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/250366/carmesi-natural-deodorant-roll-on-floral-sunset_1_display_1669795661_1a3b0376.jpg"
+          ],
+          "rating": {
+            "rate": 4.3,
+            "count": 2
+          },
+          "quantity": 1
+        },
+        {
+          "id": 29,
+          "name": "Mamaearth-Moisturizing-Bathing-Bar-For-Babies",
+          "size": 2,
+          "price": 224,
+          "categories": "beby care",
+          "discount": "10",
+          "avatar": [
+             "https://media6.ppl-media.com/tr:h-75,w-75,c-at_max,dpr-2/static/img/product/174672/mamaearth-moisturizing-bathing-bar-for-babies-pack-of-2_1_display_1655878947_92bd1f62.jpg"
+          ],
+          "rating": {
+            "rate": 3.8,
+            "count": 2
+          },
+          "quantity": 1
+        }      
 ]
-    
-
+  
 }

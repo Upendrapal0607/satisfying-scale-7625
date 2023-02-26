@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautify Admin</title>
     <link rel="stylesheet" type="text/css" href="../CSS/admin.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Mulish:wght@700&family=Poppins:wght@100;200&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Mulish:wght@700&family=Poppins:wght@100;200&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
 </head>
-<body>
 
+<body>
     <div id="add-modal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeAddModal()">&times;</span>
-            <h3>Add Item</h3>
+            <h3 id="add-edit">Add Item</h3>
             <form id="add-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" required><br>
@@ -29,17 +32,18 @@
                 <input type="text" id="avatar" required><br>
                 <label for="rate">Rate:</label>
                 <input type="text" id="rate" required><br>
-                <input class="submit" id="submit" type="button" value="Submit" >
+                <input type="hidden" id="id">
+                <input class="submit" id="submit" type="button" value="Submit"><br>
+                <input class="submit" id="edit" type="button" value="Edit">
             </form>
         </div>
     </div>
 
-<div class="btn">
-    <button id="fetch-data-button" onclick="fetchData()">Total Products</button>
-        <button id="add-data-button" onclick="showAddModal()">Add Product</button>
-        <button id="add-data-button" onclick="window.location ='index.html'">Go_to_Webpage</button>
-
-</div>
+    <div class="btn">
+        <button id="fetch-data-button" onclick="fetchData()">Total Products</button>
+        <button id="add-data-button" onclick="showAddModal()">Add & Edit Product</button>
+        <button id="add-data-button" onclick="window.location.href ='index.html'">Back To Home Page</button>
+    </div>
 
     <div class="admin-page">
         <table id="data-table">
@@ -53,13 +57,15 @@
                     <th>Categories</th>
                     <th>Discount</th>
                     <th>Actions</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody id="data-table-body"></tbody>
         </table>
     </div>
-     
+
 </body>
 
 <script src="../JavaScript/admin.js"></script>
+
 </html>
