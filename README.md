@@ -31,5 +31,5 @@ JavaScript<br>
 
 
 
-<h1>About Project</h1>
+
  We did this project within 5 days in our unit-3 construct week.Beautique is a ecomerce product based website  in India that allows customers to perchase cosmatic product.. The company was founded in 2020 and has since expanded to several products,as well as a few free offers provided by us if customers purchase mass product.Beautique website have few step to purchase product verry eassialy, which means that customers can use very smoothely, rather than others website. The company offers a variety of pruducts to choose from product list, and customers can purchase product through the Beautique website or mobile app.
