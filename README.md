@@ -13,7 +13,7 @@ We did this project within 5 days in our unit-3 construct week. Beautique is a e
 </ul>
 
 
-<h1>Tect Stack</h1>
+<h1>Tech Stacks</h1>
 
 <ul>
 <li>HTML</li>
