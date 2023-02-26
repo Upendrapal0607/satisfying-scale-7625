@@ -12,10 +12,12 @@ Shivam <br>
 
 
 Tech Stack Used : -
-Languages
-HTML
-CSS
-JavaScript
+Languages<br>
+HTML<br>
+CSS<br>
+JavaScript<br>
+
+
  
 ![Capture png2](https://user-images.githubusercontent.com/112810287/221392779-3436afb6-cc73-4344-98e2-5ca234cc60c1.PNG)
 
