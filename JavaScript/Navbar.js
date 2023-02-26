@@ -45,12 +45,15 @@ window.onclick = function (event) {
 }
 
 function submit2(){
-    if(0){
-        window.location.assign("../HTML/Cart.html");
-        console.log("shivam");
-    }
+
+
+    let addToCart=JSON.parse(localStorage.getItem('cartData'))||[]
+if(addToCart.length>0){
+  window.location.assign("../HTML/Cart.html");
+       }
+
     else{
         window.location.assign("../HTML/Empty.html");
-        console.log("Upendr");
+      
     }
 }

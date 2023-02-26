@@ -115,7 +115,8 @@ span {
 }
 .Added-product > div {
   width: 100%;
-  height: 4rem;
+  /* border: 2px solid rgb(13, 223, 23); */
+  /* height: 4rem; */
 }
 .offer {
   background-color: #e1bee7;
@@ -188,13 +189,16 @@ span {
   color: darkgoldenrod;
   background-color: #004d40;
 }
-
+#Place-btn:hover{
+  cursor: pointer;
+}
 .Join-today > :nth-child(1) > h5 {
   font-size: 20px;
   font-weight: 300;
 }
 
 .Add-product {
+  /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -211,6 +215,10 @@ span {
 }
 .product-details {
   width: 40%;
+}
+.apaand-card{
+  display: grid;
+  gap:20px;
 }
 .remove-btn {
   width: 70%;
@@ -298,3 +306,14 @@ span {
 }
 
 /* Corousel End */
+
+.Add-cart{
+  width: 100%;
+  background: #ec407a;
+  padding: 5px;
+  margin: 3px 0px;
+  /* visibility: hidden; */
+}
+.Add-cart:hover{
+ cursor: pointer;
+}
