@@ -45,8 +45,12 @@ window.onclick = function (event) {
 }
 
 function submit2(){
+<<<<<<< HEAD
+    if(0){
+=======
 
     if([]){
+>>>>>>> 6e25464ea0de1cae52d95d7140796155e6338506
         window.location.assign("../HTML/Cart.html");
       
 
