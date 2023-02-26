@@ -16,7 +16,6 @@ async function fetchdata(){
 
 fetchdata()
 
-
 function displaycards(data){
     mockapis.innerHTML = ""
     data.forEach(el=>{
@@ -26,7 +25,6 @@ function displaycards(data){
         let image = document.createElement("img")
         image.setAttribute("src",el.avatar)
         
-
         card.append(image)
         mockapis.append(card)
     })

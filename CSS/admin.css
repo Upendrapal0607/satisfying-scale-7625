@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 .admin-page {
     display: flex;
     justify-content: space-between;
@@ -12,43 +13,61 @@ body {
     width: 45%;
     position: relative;
 }
-#add-data-button{
+
+#add-data-button {
     width: 45%;
     position: relative;
 }
-.btn{
+
+.btn {
     height: 40px;
     margin-left: 20px;
     display: flex;
     padding: 20px;
 }
-#fetch-data-button,#add-data-button{
-   cursor: pointer;
-   margin-left: 40px;
-   height: 30px;
-   background-color: #f9d3e8;
-   border: none;
-   border-radius: 12px;
+
+#fetch-data-button,
+#add-data-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 40px;
+    height: 30px;
+    background-color: #f9d3e8;
+    border: none;
+    border-radius: 12px;
 }
-#add-data-button:hover{
+
+#add-data-button:hover {
     background-color: #e40980;
     color: white;
 }
-#fetch-data-button:hover{
+
+#fetch-data-button:hover {
     background-color: #e40980;
     color: white;
 }
-#deletebtn{
-    color: black;
+
+#deletebtn {
+    color: red;
+    border-radius: 5px;
+    background-color: #fbd2ea;
+    border: 1px solid grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+#editbtn {
+    color: darkblue;
     border-radius: 5px;
     background-color: #fbd2ea;
     border: 1px solid grey;
     font-family: 'Poppins', sans-serif;
 
 }
+
 #add-modal {
     width: 15%;
-    float:left;
+    float: left;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 2rem;
@@ -56,8 +75,8 @@ body {
 
 #data-table {
     width: 100%;
-    float:right;
-    margin-left:20px;
+    float: right;
+    margin-left: 20px;
 }
 
 #add-form {
@@ -81,7 +100,8 @@ body {
     border-collapse: collapse;
 }
 
-#data-table th, #data-table td {
+#data-table th,
+#data-table td {
     border: 1px solid rgb(0, 0, 35);
     padding: 8px;
 }
@@ -95,21 +115,34 @@ body {
 }
 
 #data-table tr:hover {
-    background-color: #ddd;
+    background-color: #fa90ca;
+    color: black;
+    font-weight: 800;
 }
 
 #data-table th {
     text-align: center;
 }
 
-.close{
+#edit,
+#submit {
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.close {
     cursor: pointer;
     font-size: 30px;
 }
-td{
+
+td {
     text-align: center;
 }
-.submit{
+
+.submit {
     outline: none;
     border: none;
     background-color: #e40980;

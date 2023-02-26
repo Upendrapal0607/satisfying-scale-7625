@@ -1,21 +1,36 @@
+
  # satisfying-scale-7625
-
- Beautique-clone-website
+ # Beautique.com
 This was a collaborative project made by 4 members Executed in 5 days.
+We did this project within 5 days in our unit-3 construct week. Beautique is a ecommerce product based website  in India that allows customers to perchase cosmatic product. It has expanded to several product & offers for customers, as well as a few free offers provided by us if customers purchase mass product. Beautique website have few step to purchase product verry eassialy, which means that customers can use very smoothely, rather than others website. The company offers a variety of pruducts to choose from product list, and customers can purchase product through the Beautique website or mobile app.
 
-We did this project within 5 days in our unit-3 construct week.Beautique is a ecomerce product based website  in India that allows customers to perchase cosmatic product. It has expanded to several product & offers for customers, as well as a few free offers provided by us if customers purchase mass product. Beautique website have few step to purchase product verry eassialy, which means that customers can use very smoothely, rather than others website. The company offers a variety of pruducts to choose from product list, and customers can purchase product through the Beautique website or mobile app.
+<h1>Contributors</h1>
+<ul>
+<li>Upendra Pal (Team Lead)</li>
+<li>Sharvari Hupare</li>
+<li>Shivam Dubey</li>
+<li>Jivak Sute</li>
+</ul>
 
-Jivak <br>
-Upendra <br>
-Sharvari <br>
-Shivam <br>
 
+<h1>Tect Stack</h1>
 
-Tech Stack Used : -<br>
-Languages<br>
-HTML<br>
-CSS<br>
-JavaScript<br>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JAVASCRIPT</li>
+</ul>
+
+<h1>Features</h1>
+
+<ul>
+<li>Home Page</li>
+<li>Login/Sign-up</li>
+<li>Beauty Products</li>
+<li>Responsive UI</li>
+<li>Cart Functionality</li>
+<li>Admin Side</li>
+</ul>
 
 Following are the Screenshots for the reference
 
@@ -34,3 +49,4 @@ Following are the Screenshots for the reference
 
 # About Project
  We did this project within 5 days in our unit-3 construct week.Beautique is a ecomerce product based website  in India that allows customers to perchase cosmatic product.. The company was founded in 2020 and has since expanded to several products,as well as a few free offers provided by us if customers purchase mass product.Beautique website have few step to purchase product verry eassialy, which means that customers can use very smoothely, rather than others website. The company offers a variety of pruducts to choose from product list, and customers can purchase product through the Beautique website or mobile app.
+
