@@ -27,6 +27,47 @@
     /* line-height: 30px; */
 
 }
+
+
+@media screen and (min-width : 800px) and (max-width : 1000px){
+    
+#product_p{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* line-height: 30px; */
+
+}
+}
+@media screen and (min-width : 500px) and (max-width : 800px){
+    
+    #product_p{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        /* line-height: 30px; */
+    
+    }
+    }
+
+    @media screen and (min-width : 100px) and (max-width : 500px){
+    
+        #product_p{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+            /* line-height: 30px; */
+        
+        }
+        }
+    
+
 .pro_div>*{
   margin-bottom: 10px;
 }
@@ -102,6 +143,124 @@
 
 
 
+@media screen and (min-width : 800px) and (max-width : 1000px){
+    
+    #product_p1{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        /* line-height: 30px; */
+    
+    }
+    }
+    @media screen and (min-width : 500px) and (max-width : 800px){
+        
+        #product_p1{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            /* line-height: 30px; */
+        
+        }
+        }
+    
+        @media screen and (min-width : 100px) and (max-width : 500px){
+        
+            #product_p1{
+                width: 90%;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 20px;
+                /* line-height: 30px; */
+            
+            }
+            }
+
+
+            
+@media screen and (min-width : 800px) and (max-width : 1000px){
+    
+    #product_p2{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        /* line-height: 30px; */
+    
+    }
+    }
+    @media screen and (min-width : 500px) and (max-width : 800px){
+        
+        #product_p2{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            /* line-height: 30px; */
+        
+        }
+        }
+    
+        @media screen and (min-width : 100px) and (max-width : 500px){
+        
+            #product_p2{
+                width: 90%;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 20px;
+                /* line-height: 30px; */
+            
+            }
+            }
+
+
+
+            
+@media screen and (min-width : 800px) and (max-width : 1000px){
+    
+    #product_p3{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        /* line-height: 30px; */
+    
+    }
+    }
+    @media screen and (min-width : 500px) and (max-width : 800px){
+        
+        #product_p3{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            /* line-height: 30px; */
+        
+        }
+        }
+    
+        @media screen and (min-width : 100px) and (max-width : 500px){
+        
+            #product_p3{
+                width: 90%;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 20px;
+                /* line-height: 30px; */
+            
+            }
+            }
 
 
 
